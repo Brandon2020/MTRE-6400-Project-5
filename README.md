@@ -48,7 +48,7 @@ source rl_env/bin/activate
 
 1. Training TD3 (Basic)
 Train
-Bashpython train_td3_basic.py
+Bash python train_td3_basic.py
 
 Press Ctrl + C to stop gracefully.
 Best model saved automatically as models/best_model.zip
@@ -58,14 +58,14 @@ Bashpython plot_td3.py
 
 2. Training SAC + HER (Recommended / Stronger)
 Train
-Bashpython train_sac_her.py
+Bash python train_sac_her.py
 
 Uses Hindsight Experience Replay (HER) — much better for sparse rewards.
 Recommended to run for 500k–1M+ timesteps.
 
 
 3. Generate Comparison Report (Best for Report)
-Bashpython generate_comparison_report.py
+Bash python generate_comparison_report.py
 This creates:
 
 comparison_table.png → Performance comparison table
@@ -73,7 +73,7 @@ td3_vs_sac_her_trajectories.png → Side-by-side trajectory map
 
 
 4. Live Demo (Watch the Ant Move)
-Bashpython -c '
+Bash python -c '
 import gymnasium as gym
 import gymnasium_robotics
 from stable_baselines3 import SAC
@@ -93,11 +93,11 @@ env.close()
 '
 
 5. TensorBoard (Live Learning Curves)
-Bashtensorboard --logdir ./logs --host 0.0.0.0
+Bash tensorboard --logdir ./logs --host 0.0.0.0
 → Open in browser: http://localhost:6006
 
 6. Copy Files to Windows
-Bashcp *.png /mnt/c/Users/bsnap/Videos/ 2>/dev/null || cp *.png /mnt/c/Users/bsnap/Desktop/
+Bash cp *.png /mnt/c/Users/bsnap/Videos/ 2>/dev/null || cp *.png /mnt/c/Users/bsnap/Desktop/
 explorer.exe /mnt/c/Users/bsnap/Videos
 
 AI Usage Statement (Add to your report)
