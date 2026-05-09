@@ -18,14 +18,23 @@ This project implements and compares **TD3** and **SAC+HER** on the `AntMaze_Med
 ## Project Structure
 antmaze_project/
 ├── train_td3_basic.py              # TD3 Training Script
+
 ├── train_sac_her.py                # SAC + HER Training Script
+
 ├── generate_comparison_report.py   # Evaluation + Comparison Table
+
 ├── compare_td3_vs_sac.py           # Side-by-side Trajectory Plot
+
 ├── plot_td3.py                     # TD3 Trajectory Plot
+
 ├── README.md
+
 ├── models/                         # Trained models (best_model.zip, etc.)
+
 ├── logs/                           # TensorBoard logs
+
 └── *.png                           # Generated figures for report
+
 
 
 
