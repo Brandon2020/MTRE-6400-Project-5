@@ -105,5 +105,5 @@ AI tools (Grok by xAI) were used for:
 Writing and debugging training scripts (TD3 and SAC+HER)
 Generating commented code and README
 Creating visualization and comparison plots
-Drafting report sections and explanations
+Adding explanations for code and algorithms
 All code was reviewed, tested, and understood by the author.
